@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="contact.css">
+</head>
+<body>  
+    <header>
+        <div class="main">
+            <a href="main.html">
+                <img src="web-main-pic/logotitle.png" alt="">
+            </a>
+        </div>
+        <nav>
+            <a href="works.html">作品畫廊</a>
+            <a href="feedback.html">顧客回饋</a>
+            <a href="about.html">關於我們</a>
+            <a href="case.html">拍攝方案</a>
+            <a href="">常見問題</a>
+            <a href="contact.html">聯絡我們</a>
+        </nav>
+    </header>
+    <main>
+        <div class="contact-txt">
+            <h3 style="font-size: 15pt; margin-top: 10px;" >詢問</h3>
+            <h1 style="font-size: 30pt;margin-top: 20px;">聯絡我們</h1>
+            <h3 style="font-size: 15pt; margin-top:20px;">感謝您的蒞臨。<br>如果有任何疑問請與我們聯絡。</h3>
+        </div>
+        <div class="inner">
+            <ol class="flow">
+                <li class="active" style="border: 2px solid black;border-radius: 5px 5px 5px 5px;">
+                    <i>
+                    01
+                    </i>
+                    <div>
+                        <span class="sp-none">
+                            <font style="vertical-align: inherit;"></font>
+                        </span>
+                        <font style="vertical-align: inherit;">輸入項目</font>
+                    </div>
+                </li>
+                <div class="arrow" style="font-size: 30pt;">→</div>
+                <li class="active " style="border-radius:5px 5px 5px 5px;">
+                    <i style="vertical-align: inherit;color: rgb(141, 140, 140);" >
+                    02
+                    </i>
+                    <div>
+                        <span class="sp-none">
+                            <font style="vertical-align: inherit;"></font>
+                        </span>
+                        <font style="vertical-align: inherit;color: rgb(141, 140, 140);">內容確認</font>
+                    </div>
+                </li>
+                <div class="arrow"style="font-size :30pt;color: rgb(141, 140, 140);">→</div>
+                <li class="active" style="border-radius: 5px 5px 5px 5px;">
+                    <i style="vertical-align: inherit;color: rgb(141, 140, 140);" >
+                    03
+                    </i>
+                    <div>
+                        <span class="sp-none">
+                            <font style="vertical-align: inherit;"></font>
+                        </span>
+                        <font style="vertical-align: inherit;color: rgb(141, 140, 140);">送出</font>
+                    </div>
+                </li>
+            </ol>
+            <div class="form-area">
+                <div class="form">
+                    <dl style="margin-top: px; margin-bottom: px;">
+                        <dt>
+                            <span>
+                                <font style="vertical-align: inherit;"></font><font style="vertical-align: inherit;">姓名</font></font>
+                            </span>
+                        </dt>
+                        <dd>
+                            <input type="text" name="姓名" class="text size-l validate[required]" placeholder="請輸入你的名字。" style="width: 400px ;height: 40px; margin-top: 40px;margin-bottom: 25px;">
+                           </dd>
+                    </dl> <hr style="margin-bottom: 25px;">             
+                    <dl style="margin-top: px; margin-bottom: px;">
+                        <dt><i class="tag required"><font style="vertical-align: inherit;"></font></i><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">電子郵件地址</font></font></span></dt>
+                        <dd>
+                         <input type="email" name="Email" class="text size-l validate[required,custom[email]]" placeholder="範例：info@gmail.com"style="width: 400px ;height: 40px;">
+                        </dd>
+                       </dl><hr style="margin-top: 25px;margin-bottom: 25px;"> 
+                    <dl>
+                        <dt><i class="tag"><font style="vertical-align: inherit;"></font></i><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"style="width: 400px ;height: 40px;">電話號碼</font></font></span></dt>
+                        <dd>
+                         <input type="tel" name="電話" class="text size-l" placeholder="範例：09012345678"style="width: 400px ;height: 40px;">
+                        </dd>
+                    </dl><hr style="margin-top: 25px;margin-bottom: 25px;">  
+                    <dl>
+                        <dt><i class="tag required"><font style="vertical-align: inherit;"></font></i><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">拍攝項目</font></font></span></dt>
+                        <dd>
+                         <div class="form-inline">
+                          <div class="radio three">
+                           <input type="radio" name="拍攝項目[]" id="radio01" value="結婚紀念" class="validate[required]">
+                           <label for="radio01"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">結婚紀念</font></font></label>
+                          </div>
+                          <div class="radio three">
+                           <input type="radio" name="拍攝項目[]" id="radio02" value="家庭寫真" class="validate[required]">
+                           <label for="radio02"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">家庭寫真</font></font></label>
+                          </div>
+                          <div class="radio three">
+                           <input type="radio" name="拍攝項目[]" id="radio03" value="親子寫真" class="validate[required]">
+                           <label for="radio03"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">親子寫真</font></font></label>
+                          </div>
+                          <div class="radio three">
+                           <input type="radio" name="拍攝項目[]" id="radio04" value="孕婦寫真" class="validate[required]">
+                           <label for="radio04"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">孕婦寫真</font></font></label>
+                          </div>
+                          <div class="radio three">
+                           <input type="radio" name="拍攝項目[]" id="radio05" value="情侶寫真" class="validate[required]">
+                           <label for="radio05"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">情侶寫真</font></font></label>
+                          </div>
+                          <div class="radio three">
+                           <input type="radio" name="拍攝項目[]" id="radio06" value="個人寫真" class="validate[required]">
+                           <label for="radio06"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">個人寫真</font></font></label>
+                          </div>
+                          <div class="radio three">
+                           <input type="radio" name="拍攝項目[]" id="radio07" value="旅行寫真" class="validate[required]">
+                           <label for="radio07"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">旅行寫真</font></font></label>
+                          </div>
+                          <div class="radio three">
+                           <input type="radio" name="拍攝項目[]" id="radio08" value="紀念日" class="validate[required]">
+                           <label for="radio08"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">紀念日</font></font></label>
+                          </div>
+                          <div class="radio three">
+                           <input type="radio" name="拍攝項目[]" id="radio09" value="商用" class="validate[required]">
+                           <label for="radio09"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">商用</font></font></label>
+                          </div>
+                         
+                         </div>
+                        </dd>
+                       </dl><hr style="margin-top: 25px;margin-bottom: 25px;"> 
+                    <dl>
+                        <dt><i class="tag"><font style="vertical-align: inherit;"></font></i><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"style="width: 400px ;height: 40px;">期望拍攝日期</font></font></span></dt>
+                        <dd>
+                         <input type="text" name="攝影希望日" class="text size-l" placeholder="範例：十月初"style="width: 400px ;height: 40px;">
+                        </dd>
+                       </dl><hr style="margin-top: 25px;margin-bottom: 25px;"> 
+                    <dl>
+                        <dt><i class="tag"><font style="vertical-align: inherit;"></font></i><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">要求</font></font></span></dt>
+                        <dd>
+                         <textarea cols="30" rows="5" name="需求" class="textarea" placeholder="如果您有任何需求，請在這裡填寫。"style="width: 402px ;height: 80px;"></textarea>
+                        </dd>
+                    </dl><hr style="margin-top: 25px;margin-bottom: 25px;"> 
+                    <dl>
+                        <dt><i class="tag required"><font style="vertical-align: inherit;"></font></i><span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">諮詢內容</font></font></span></dt>
+                        <dd style="margin-top: 25px;margin-bottom: 25px;">
+                         <textarea cols="30" rows="5" name="諮詢内容" class="textarea validate[required]" placeholder="希望拍攝的內容、詢價等，任何問題都可以在這詢問。"style="width: 402px ;height: 80px;"></textarea>
+                        </dd>
+                    </dl>
+
+                </div>
+            </div>
+            <div class="btn-box">
+                <button>
+                    <input class="btn" value="內容確認" type="submit" style="color: #fff; background-color: #000;width: 500px;height: 80px; font-size: 15pt;">
+                </button>
+            </div>
+            <div class="note" >
+                <p>
+                    *您提供的個人資料僅用於回答與聯繫使用      
+                </p>
+            </div>
+            
+           
+        </div>
+        
+    </main>
+    <footer>
+        <div class="footer-wrap">
+            <div class="footer-wrap-inner">
+                <div class="inner-contain">
+                    <div class="foot-logo">
+                        <img src="web-main-pic/logo.png" width="60" height="40" alt="">
+                    </div>
+                    <div class="foot-nav">
+                        <div class="foot-nav-01">
+                            <ul>
+                                <a href="">
+                                    <li>幫助消息</li></a>
+                                <a href="">
+                                    <li>關於我們</li>
+                                </a>
+                                <a href="">
+                                    <li>版本紀錄</li>
+                                </a>                                              
+                            </ul>
+                        </div>
+                        <div class="foot-nav-02">
+                            <ul>
+                                <a href="">
+                                    <li>客戶服務</li>
+                                </a>
+                                <a href="">
+                                    <li>訂單狀態</li>
+                                </a>
+                                <a href="">
+                                    <li>珍藏照片</li>
+                                </a>  
+                            </ul>
+                        </div>
+                        <div class="foot-nav-03">
+                            <ul>
+                                <a href="">
+                                    <li>攝影師</li>
+                                </a>
+                                <a href="">
+                                    <li>詢問</li>
+                                </a>
+                                <a href="">
+                                    <li>更多項目</li>
+                                </a>  
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-wrap-conact">
+                <div class="conact-box">
+                    <div class="conact-box-pic">
+                        <img src="web-main-pic/pin.png" width="50"  alt="">
+                    </div>
+                    <div class="conact-box-txt">
+                        <p>地址：桃園市中壢區忠孝東路九號99樓</p>
+                    </div>
+                </div>
+                <div class="conact-box">
+                    <div class="conact-box-pic">
+                        <img src="web-main-pic/phone-call.png" width="50"  alt="">
+                    </div>
+                    <div class="conact-box-txt">
+                        <p>聯絡電話：03-3345678</p>
+                    </div>
+                </div>
+                <div class="conact-box">
+                    <div class="conact-box-pic">
+                        <img src="web-main-pic/email.png" width="50"  alt="">
+                    </div>
+                    <div class="conact-box-txt">
+                        <p>電子郵件：floattoyo@gmail.com</p>
+                    </div>
+                </div>
+                <div class="conact-box">
+                    <div class="conact-box-pic">
+                        <img src="web-main-pic/global.png" width="50"  alt="">
+                    </div>
+                    <div class="conact-box-txt">
+                        <p>網站：浮光影像設計有限公司</p>
+                    </div>
+                </div>
+    
+            </div>
+    
+        </div>
+        <div class="footer-buttom">
+            <div class="copyright">
+                <div class="copyright-txt">ⒸCopyright 2016-2021</div>
+                <!-- <div class="copyright-line"></div> -->
+                <div class="copyright-word"> 浮光影像寫真館</div>
+    
+    
+            </div>
+        </div>
+    </footer>
+   
+</body>
+</html>
